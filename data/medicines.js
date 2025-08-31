@@ -1,17 +1,17 @@
 const medicines = [
     // Pain Relief
-    { name: 'Crocin Pain Relief Tablet', image: '/image/medicines/crocin.jpg', description: 'Provides relief from headache, migraine, and body pain.', category: 'Pain Relief', price: 45.50, countInStock: 200 },
-    { name: 'Moov Pain Relief Cream', image: '/image/medicines/moov.jpg', description: 'Topical analgesic for backaches, muscular pains, and sprains.', category: 'Pain Relief', price: 130.00, countInStock: 150 },
-    { name: 'Volini Pain Relief Gel', image: '/image/medicines/volini-gel.jpg', description: 'Effective gel for joint pain, inflammation, and sports injuries.', category: 'Pain Relief', price: 155.25, countInStock: 180 },
-    { name: 'Combiflam Tablet', image: '/image/medicines/combiflam.jpg', description: 'Combination of Ibuprofen and Paracetamol for moderate pain and fever.', category: 'Pain Relief', price: 35.00, countInStock: 250 },
-    { name: 'Iodex Balm', image: '/image/medicines/iodex.jpg', description: 'Multi-purpose pain balm for head, neck, and joint pains.', category: 'Pain Relief', price: 70.00, countInStock: 300 },
+    { name: 'Crocin Pain Relief Tablet', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcx2Y4n5QjBZOybGfjePpueGi235iQ3D0boA&s', description: 'Provides relief from headache, migraine, and body pain.', category: 'Pain Relief', price: 45.50, countInStock: 200 },
+    { name: 'Moov Pain Relief Cream', image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/body-pain-relief/7/z/m/100-imported-rapid-pain-relief-cream-100g-1-tube-moov-original-imah4f6p2yh38wkh.jpeg?q=90&crop=false', description: 'Topical analgesic for backaches, muscular pains, and sprains.', category: 'Pain Relief', price: 130.00, countInStock: 150 },
+    { name: 'Volini Pain Relief Gel', image: 'https://rukminim2.flixcart.com/image/704/844/xif0q/allopathy/7/n/o/-original-imagtud3gry8c3sv.jpeg?q=90&crop=false', description: 'Effective gel for joint pain, inflammation, and sports injuries.', category: 'Pain Relief', price: 155.25, countInStock: 180 },
+    { name: 'Combiflam Tablet', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4ODou2-8eefDyPdw85UPuy-beU-atFtdpg&s', description: 'Combination of Ibuprofen and Paracetamol for moderate pain and fever.', category: 'Pain Relief', price: 35.00, countInStock: 250 },
+    { name: 'Iodex Balm', image: 'https://rukminim2.flixcart.com/image/704/844/jfsknm80/body-pain-relief/b/g/x/8-multipurpose-pain-balm-8-gm-iodex-original-imaf46d7w6yhxdjn.jpeg?q=90&crop=false', description: 'Multi-purpose pain balm for head, neck, and joint pains.', category: 'Pain Relief', price: 70.00, countInStock: 300 },
 
     // Allergy & Cold
-    { name: 'Allegra 120mg Tablet', image: '/image/medicines/allegra.jpg', description: 'Non-drowsy antihistamine for seasonal allergies and hay fever.', category: 'Allergy', price: 98.00, countInStock: 120 },
-    { name: 'Vicks Vaporub 50ml', image: '/image/medicines/vicks.jpg', description: 'Provides relief from blocked nose, cough, and cold symptoms.', category: 'Cold & Cough', price: 140.00, countInStock: 220 },
-    { name: 'Honitus Cough Syrup', image: '/image/medicines/honitus.jpg', description: 'Ayurvedic cough syrup for effective relief from all types of cough.', category: 'Cold & Cough', price: 95.00, countInStock: 160 },
-    { name: 'Otrivin Nasal Spray', image: '/image/medicines/otrivin.jpg', description: 'Quickly relieves nasal congestion due to colds and allergies.', category: 'Cold & Cough', price: 88.50, countInStock: 190 },
-    { name: 'Strepsils Lozenges (8s)', image: '/image/medicines/strepsils.jpg', description: 'Soothes sore throats and provides relief from throat infections.', category: 'Cold & Cough', price: 40.00, countInStock: 400 },
+    { name: 'Allegra 120mg Tablet', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhX0RCGNAFoOaCaR-caf7xZsqLQgOLL7-21g&s', description: 'Non-drowsy antihistamine for seasonal allergies and hay fever.', category: 'Allergy', price: 98.00, countInStock: 120 },
+    { name: 'Vicks Vaporub 50ml', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrQrQxi-inROcmY_O4pxrjJEhGnTjPHbBy8g&s', description: 'Provides relief from blocked nose, cough, and cold symptoms.', category: 'Cold & Cough', price: 140.00, countInStock: 220 },
+    { name: 'Honitus Cough Syrup', image: 'https://m.media-amazon.com/images/I/41aQSoVhGsL._UF1000,1000_QL80_.jpg', description: 'Ayurvedic cough syrup for effective relief from all types of cough.', category: 'Cold & Cough', price: 95.00, countInStock: 160 },
+    { name: 'Otrivin Nasal Spray', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeydQ8pUhNNtSxZWHZcB2WvQlHIVT_HudPfg&s', description: 'Quickly relieves nasal congestion due to colds and allergies.', category: 'Cold & Cough', price: 88.50, countInStock: 190 },
+    { name: 'Strepsils Lozenges (8s)', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVSX54mOhouTEOeYOU7VmpskTs4RVzxVX6Fg&s', description: 'Soothes sore throats and provides relief from throat infections.', category: 'Cold & Cough', price: 40.00, countInStock: 400 },
 
     // Stomach Care
     { name: 'Eno Fruit Salt Sachet', image: '/image/medicines/eno.jpg', description: 'Provides fast relief from acidity and heartburn in just 6 seconds.', category: 'Stomach Care', price: 10.00, countInStock: 500 },
@@ -48,7 +48,7 @@ const medicines = [
         
         return {
             name: name,
-            image: `/image/medicines/placeholder.jpg`, // A generic placeholder image
+            image: `https://i.imgur.com/placeholder.jpg`, // A generic placeholder image
             description: `A standard medication for ${category.toLowerCase()}. Please consult a doctor before use.`,
             category: category,
             price: parseFloat((Math.random() * 400 + 50).toFixed(2)), // Price between 50 and 450

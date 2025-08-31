@@ -21,8 +21,6 @@ const languages = [
     ['English', 'Hindi', 'Telugu'], ['English', 'Hindi', 'Kannada']
 ];
 
-const images = ['/image/00 img.jpg', '/image/17 img.jpg', '/image/18 img.jpg'];
-
 // Function to generate a realistic bio based on specialty
 const generateBio = (specialty) => {
     const bioTemplates = {
@@ -54,7 +52,7 @@ specialties.forEach(specialty => {
             fees: `₹${Math.floor(Math.random() * 1500) + 500}`, // Fees between ₹500 and ₹1999
             languages: languages[Math.floor(Math.random() * languages.length)],
             rating: (4.1 + Math.random() * 0.8).toFixed(1), // Rating between 4.1 and 4.9
-            image: images[Math.floor(Math.random() * images.length)],
+            image: "https://www.shutterstock.com/image-vector/doctor-icon-stethoscope-isolated-vector-600nw-2409319497.jpg", // Default image for all doctors
             bio: generateBio(specialty),
             availability: {
                 hospital: ['Monday', 'Wednesday', 'Friday'],
